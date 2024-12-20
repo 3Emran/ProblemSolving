@@ -52,9 +52,9 @@ int main()
     double x[n],y[n];
     cout << "Enter the data points (x and y):\n";
     for(int i=0; i<n; i++){
-        cout << " x [" << i << "] = ";
+        cout << " x [ " << i << " ] = ";
         cin >> x[i];
-        cout << " y [" << i << "] = ";
+        cout << " y [ " << i << " ] = ";
         cin >> y[i];
     }
     double value;
